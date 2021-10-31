@@ -1,0 +1,32 @@
+{
+  "General": {
+    "Code": "GSPC",
+    "Type": "INDEX",
+    "Name": "S&P 500",
+    "Exchange": "INDX",
+    "CurrencyCode": "USD",
+    "CurrencyName": "US Dollar",
+    "CurrencySymbol": "$",
+    "CountryName": "USA",
+    "CountryISO": "US"
+  },
+  "Components": {
+    "<Component Number>" : {
+      "Code": "<Stock Code>",
+      "Exchange": "US",
+      "Name": "<Company Name",
+      "Sector": "<Sector Name>",
+      "Industry": "<Industry Name"
+      }
+    },
+  "Historical Components" : {
+    "<Component Number>": {
+      "Code": "<Stock Code>",
+      "Name": "<Company Name>",
+      "StartDate": "<Date starting on S&P in YYYY-MM-DD Format>",
+      "EndDate": "<Date ending on S&P in YYYY-MM-DD Format>",
+      "IsActiveNow": "<1 if true, 0 if false>",
+      "IsDelisted": "<1 if true, 0 if false>"
+      }
+  }  
+}
